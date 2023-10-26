@@ -58,20 +58,20 @@
 # Task 3
 # Требуется вывести все целые степени двойки (т.е. числа вида 2k),
 #  не превосходящие числаN.
-import math
-n = 16
+# import math
+# n = 16
 
-i = 1
+# i = 1
 
-while i <= n:
-    if i == 1:
-        print(i)
-        i += 1
-    elif math.log(i, 2) % 1 == 0:
-        print(i)
-        i += 1
-    else:
-        i += 1
+# while i <= n:
+#     if i == 1:
+#         print(i)
+#         i += 1
+#     elif math.log(i, 2) % 1 == 0:
+#         print(i)
+#         i += 1
+#     else:
+#         i += 1
 
 
 
